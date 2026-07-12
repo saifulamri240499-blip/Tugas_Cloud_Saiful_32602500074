@@ -349,7 +349,7 @@ Implementasi meliputi:
 
 NIM : **32602500074**
 
-Program Studi Teknik Informatika
+mata kuliah : cloud computing
 
 Universitas Islam Sultan Agung Semarang
 
