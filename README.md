@@ -10,6 +10,7 @@ Tugas_Cloud_Saiful_32602500074/
 ├── requirements.txt           # Daftar pustaka atau modul dependensi
 ├── S3_Bucket_Saiful.png       # Bukti tangkapan layar pengujian S3 Bucket
 ├── EC2_Compute_Saiful.png     # Bukti tangkapan layar pengujian EC2 Compute
+├── manual penggunaan          # File MANUAL PENGGUNAAN APLIKASI
 ```
 
 ## Langkah Awal Memulai & Menjalankan
