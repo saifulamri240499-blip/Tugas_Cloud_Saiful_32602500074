@@ -112,9 +112,10 @@ SaifulCloud_Center.ipynb
 
 ## 👤 Author
 
-Saiful Amri 32602500074
-cloud computing
-Universitas Islam Sultan Agung  
+**Nama** : Saiful Amri  
+**NIM** : 32602500074  
+**Mata Kuliah** : Cloud Computing  
+**Universitas** : Universitas Islam Sultan Agung  
 
 ---
 
