@@ -106,7 +106,7 @@ SaifulCloud_Center.ipynb
 ![EC2](EC2_Compute_Saiful_amri.png)
 
 ### 🔹 S3
-![S3](S3_Bucket_Saiful_amri.png)
+![S3](S3_Bucket_Saiful_amrii.png)
 
 ---
 
