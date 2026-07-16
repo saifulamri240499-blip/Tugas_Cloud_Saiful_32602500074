@@ -11,28 +11,26 @@
 - ⚡ Amazon EC2 (Compute)
 - 🗂️ Amazon S3 (Storage)
 
-Aplikasi ini dibuat menggunakan **Jupyter Notebook** dengan integrasi AWS SDK (Boto3), sehingga cocok untuk pembelajaran Cloud Computing.
+Aplikasi ini dibuat menggunakan **Jupyter Notebook** dengan integrasi AWS SDK (Boto3).
 
 ---
 
 ## 🎯 Tujuan Project
 
-Project ini bertujuan untuk:
-- Memahami konsep dasar Cloud Computing
-- Mengimplementasikan layanan AWS menggunakan Python
-- Melakukan manajemen EC2 & S3 secara sederhana
-- Membuat interface interaktif dengan Jupyter Notebook
+- Memahami konsep Cloud Computing  
+- Mengimplementasikan AWS menggunakan Python  
+- Mengelola EC2 & S3 secara sederhana  
 
 ---
 
 ## 🧰 Teknologi yang Digunakan
 
-- 🐍 Python 3
-- ☁️ AWS EC2
-- 🗄️ AWS S3
-- 📦 Boto3 (AWS SDK)
-- 📓 Jupyter Notebook
-- 🎛️ ipywidgets
+- Python 3  
+- AWS EC2  
+- AWS S3  
+- Boto3  
+- Jupyter Notebook  
+- ipywidgets  
 
 ---
 
@@ -40,189 +38,215 @@ Project ini bertujuan untuk:
 
 SaifulCloud-Center/  
 │  
-├── .gitignore                  → Mengatur file yang tidak diupload ke GitHub  
-├── SaifulCloud_Center.ipynb    → Notebook utama aplikasi  
-├── requirements.txt            → Daftar library Python  
-├── manual penggunaan.pdf       → Panduan penggunaan aplikasi  
-├── EC2_Compute_Saiful_amri.png → Screenshot fitur EC2  
-├── S3_Bucket_Saiful_amri.png   → Screenshot fitur S3  
-└── README.md                   → Dokumentasi project  
+├── .gitignore                  → File yang diabaikan GitHub  
+├── SaifulCloud_Center.ipynb    → Program utama  
+├── requirements.txt            → Library Python  
+├── manual penggunaan.pdf       → Panduan penggunaan  
+├── EC2_Compute_Saiful_amri.png → Tampilan EC2  
+├── S3_Bucket_Saiful_amri.png   → Tampilan S3  
+└── README.md                   → Dokumentasi  
 
 ---
 
-### 📌 Penjelasan Struktur
+## ▶️ Menjalankan Aplikasi (CMD)
 
-- **.gitignore**  
-  Mengabaikan file seperti cache, environment, dll agar tidak ikut terupload.
+Ikuti langkah berikut menggunakan **Command Prompt (CMD)**:
 
-- **SaifulCloud_Center.ipynb**  
-  File utama berisi kode program untuk mengelola AWS EC2 dan S3.
+1. Buka CMD  
+2. Masuk ke folder project:
 
-- **requirements.txt**  
-  Berisi library yang harus diinstall seperti `boto3` dan `ipywidgets`.
+cd path\ke\folder\SaifulCloud-Center  
 
-- **manual penggunaan.pdf**  
-  Panduan penggunaan aplikasi dalam bentuk PDF.
-
-- **EC2_Compute_Saiful_amri.png**  
-  Tampilan hasil fitur EC2.
-
-- **S3_Bucket_Saiful_amri.png**  
-  Tampilan hasil fitur S3.
-
-- **README.md**  
-  Dokumentasi utama project.
-
----
-
-## ⚙️ Instalasi & Setup
-
-### 1. Clone Repository
-git clone https://github.com/username/saifulcloud-center.git  
-cd saifulcloud-center  
-
-### 2. Install Dependencies
-pip install -r requirements.txt  
-
-### 3. Konfigurasi AWS
-aws configure  
-
-Masukkan:
-- AWS Access Key  
-- AWS Secret Key  
-- Region  
-- Output format (json)  
-
----
-
-## ▶️ Menjalankan Aplikasi
+3. Jalankan Jupyter Notebook:
 
 jupyter notebook  
 
-Buka file:  
+4. Browser akan terbuka otomatis  
+5. Klik file:
+
 SaifulCloud_Center.ipynb  
 
-Jalankan semua cell secara berurutan.
+6. Jalankan semua cell secara berurutan  
 
 ---
 
 ## ✨ Fitur Aplikasi
 
-### ⚡ Amazon EC2 Management
+### ⚡ EC2 Management
+- Launch Instance  
+- Stop Instance  
+- Terminate Instance  
 
-Fitur ini digunakan untuk mengelola instance EC2:
-
-- **Launch Instance**  
-  Membuat instance EC2 baru di AWS
-
-- **Stop Instance**  
-  Menghentikan instance yang sedang berjalan
-
-- **Terminate Instance**  
-  Menghapus instance EC2 secara permanen
-
----
-
-### 🗂️ Amazon S3 Management
-
-Fitur ini digunakan untuk mengelola bucket S3:
-
-- **Create Bucket**  
-  Membuat bucket baru
-
-- **List Bucket**  
-  Menampilkan daftar bucket yang tersedia
-
-- **Delete Bucket**  
-  Menghapus bucket dari AWS
+### 🗂️ S3 Management
+- Create Bucket  
+- List Bucket  
+- Delete Bucket  
 
 ---
 
 ## 📘 Manual Penggunaan
 
-### 🔹 Persiapan
-
-Pastikan sudah menginstall:
-- Python  
-- Jupyter Notebook  
-- Library dari requirements.txt  
-
-Dan sudah melakukan konfigurasi AWS menggunakan:
-aws configure  
-
----
-
-### 🔹 Menjalankan Aplikasi
-
-1. Buka terminal / CMD  
-2. Masuk ke folder project  
-3. Jalankan perintah:
-   jupyter notebook  
-4. Buka file:
-   SaifulCloud_Center.ipynb  
-5. Jalankan semua cell secara berurutan  
-
----
-
-### 🔹 Cara Menggunakan EC2
-
+### 🔹 EC2
 1. Pilih menu EC2  
-2. Klik **Launch Instance** untuk membuat instance baru  
-3. Masukkan parameter instance (Instance ID, tipe, dll)  
-4. Untuk menghentikan instance → klik **Stop Instance**  
-5. Untuk menghapus instance → klik **Terminate Instance**
+2. Klik Launch Instance  
+3. Masukkan konfigurasi  
+4. Gunakan Stop / Terminate sesuai kebutuhan  
 
----
-
-### 🔹 Cara Menggunakan S3
-
-1. Pilih menu S3  
-2. Masukkan nama bucket  
-3. Klik **Create Bucket**  
-4. Untuk melihat bucket → gunakan fitur list  
-5. Untuk menghapus bucket → klik **Delete Bucket**
+### 🔹 S3
+1. Masukkan nama bucket  
+2. Klik Create Bucket  
+3. Gunakan List untuk melihat data  
+4. Klik Delete untuk menghapus  
 
 ---
 
 ## 🖥️ Tampilan Aplikasi
 
-### 🔹 EC2 Management
+### 🔹 EC2
 ![EC2](EC2_Compute_Saiful_amri.png)
 
-### 🔹 S3 Management
+### 🔹 S3
 ![S3](S3_Bucket_Saiful_amri.png)
-
----
-
-## 🧪 Hasil Pengujian
-
-✅ Launch EC2 Instance berhasil  
-✅ Stop EC2 Instance berhasil  
-✅ Terminate EC2 Instance berhasil  
-✅ Create S3 Bucket berhasil  
-✅ Delete S3 Bucket berhasil  
 
 ---
 
 ## 👤 Author
 
-**Saiful Amri 32602500074**  
-📚  Cloud Computing  
-🏫 Universitas Islam Sultan Agung Semarang  
+Saiful Amri  # ☁️ SaifulCloud Center
+
+> Aplikasi Manajemen Cloud AWS (Amazon EC2 & Amazon S3) berbasis Python + Jupyter Notebook
 
 ---
 
-## 📄 License
+## 🚀 Overview
 
-Project ini dibuat untuk keperluan akademik & pembelajaran.
+**SaifulCloud Center** adalah aplikasi sederhana berbasis Python yang digunakan untuk mengelola layanan cloud AWS, khususnya:
+
+- ⚡ Amazon EC2 (Compute)
+- 🗂️ Amazon S3 (Storage)
+
+Aplikasi ini dibuat menggunakan **Jupyter Notebook** dengan integrasi AWS SDK (Boto3).
+
+---
+
+## 🎯 Tujuan Project
+
+- Memahami konsep Cloud Computing  
+- Mengimplementasikan AWS menggunakan Python  
+- Mengelola EC2 & S3 secara sederhana  
+
+---
+
+## 🧰 Teknologi yang Digunakan
+
+- Python 3  
+- AWS EC2  
+- AWS S3  
+- Boto3  
+- Jupyter Notebook  
+- ipywidgets  
+
+---
+
+## 📁 Struktur Project
+
+SaifulCloud-Center/  
+│  
+├── .gitignore                  → File yang diabaikan GitHub  
+├── SaifulCloud_Center.ipynb    → Program utama  
+├── requirements.txt            → Library Python  
+├── manual penggunaan.pdf       → Panduan penggunaan  
+├── EC2_Compute_Saiful_amri.png → Tampilan EC2  
+├── S3_Bucket_Saiful_amri.png   → Tampilan S3  
+└── README.md                   → Dokumentasi  
+
+---
+
+## ▶️ Menjalankan Aplikasi (CMD)
+
+Ikuti langkah berikut menggunakan **Command Prompt (CMD)**:
+
+1. Buka CMD  
+2. Masuk ke folder project:
+
+cd path\ke\folder\SaifulCloud-Center  
+
+3. Jalankan Jupyter Notebook:
+
+jupyter notebook  
+
+4. Browser akan terbuka otomatis  
+5. Klik file:
+
+SaifulCloud_Center.ipynb  
+
+6. Jalankan semua cell secara berurutan  
+
+---
+
+## ✨ Fitur Aplikasi
+
+### ⚡ EC2 Management
+- Launch Instance  
+- Stop Instance  
+- Terminate Instance  
+
+### 🗂️ S3 Management
+- Create Bucket  
+- List Bucket  
+- Delete Bucket  
+
+---
+
+## 📘 Manual Penggunaan
+
+### 🔹 EC2
+1. Pilih menu EC2  
+2. Klik Launch Instance  
+3. Masukkan konfigurasi  
+4. Gunakan Stop / Terminate sesuai kebutuhan  
+
+### 🔹 S3
+1. Masukkan nama bucket  
+2. Klik Create Bucket  
+3. Gunakan List untuk melihat data  
+4. Klik Delete untuk menghapus  
+
+---
+
+## 🖥️ Tampilan Aplikasi
+
+### 🔹 EC2
+![EC2](EC2_Compute_Saiful_amri.png)
+
+### 🔹 S3
+![S3](S3_Bucket_Saiful_amri.png)
+
+---
+
+## 👤 Author
+
+Saiful Amri  32602500074
+cloud computing
+Universitas Islam Sultan Agung  
 
 ---
 
 ## ⭐ Support
 
-Jika project ini membantu:
-- ⭐ Star repository  
-- 🍴 Fork project  
-- 📢 Share ke teman  
+⭐ Star jika membantu  
+🍴 Fork project  
+📢 Share ke teman  
+
+--- 
+Universitas Islam Sultan Agung  
+
+---
+
+## ⭐ Support
+
+⭐ Star jika membantu  
+🍴 Fork project  
+📢 Share ke teman  
 
 ---
