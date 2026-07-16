@@ -43,7 +43,7 @@ SaifulCloud-Center/
 ├── requirements.txt            → Library Python  
 ├── manual penggunaan.pdf       → Panduan penggunaan  
 ├── EC2_Compute_Saiful_amri.png → Tampilan EC2  
-├── S3_Bucket_Saiful_amri.png   → Tampilan S3  
+├── S3_Bucket_Saiful_amrii.png   → Tampilan S3  
 └── README.md                   → Dokumentasi  
 
 ---
