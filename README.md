@@ -206,7 +206,7 @@ aws configure
 
 ## 👤 Author
 
-**Saiful Amri**  
+**Saiful Amri 32602500074**  
 📚  Cloud Computing  
 🏫 Universitas Islam Sultan Agung Semarang  
 
